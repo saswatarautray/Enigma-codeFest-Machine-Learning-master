@@ -6,7 +6,7 @@ Following is the approach I took for the Analytics Vidhya Enigma-codeFest-Machin
 
 2. Next I spent most of my time on data preprocessing where I removed unwanted features,scaling,filtering and did feature engineering which was a key element for my success. I used Binarizer as a new feature in my training data which could say if Answers features has some value or not above a thershold.
 
-3.I tried with different algorithms like SGDRegressor,SVR and even decision tree and neither of them work as I thought at first as the data distribution is polynomial.Therefore I took PolynomialRegressor with Linear regression LassoLars which I found to be a best fit for this data.
+ 3.I tried with different algorithms like SGDRegressor,SVR and even decision tree and neither of them work as I thought at first as the data distribution is polynomial.Therefore I took PolynomialRegressor with Linear regression LassoLars which I found to be a best fit for this data.
 
  4.Cross validation was the key and I splitted my data with test size of 0.22 and trained it to get a r2 score of 0.91 on val set. To get less loss I tried different approachs like Progressive Learning, Xgboost,ANN and neither of them worked as they overfitted. So I decided to fine tuning hyperparamter that I had to get a good score. 
 
