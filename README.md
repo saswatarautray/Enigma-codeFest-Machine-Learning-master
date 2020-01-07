@@ -1,4 +1,5 @@
 #Enigma-codeFest-Machine-Learning
+
 The approach I implemented for the Analytics Vidhya Enigma-codeFest-Machine-Learning Competition, I got a public Leaderboard loss of 768.49 and ranked 11th.
 
 My approach to the solution was straight forward. Firstly, I performed data visualization to see the distribution of data. I used seaborn for plotting and finding correlation to identify important features. I plotted a histogram of data and discovered that features like Reputation and Views are distributed with very high values and ID, UserName features are not required which can be removed.
